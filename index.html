@@ -17,9 +17,24 @@
       color: rgb(255, 255, 255) !important;
       opacity: 1 !important;
       font-weight: 700 !important;
-     }
-    img:hover {
-  transform: scaleX(-1);
+    }
+    body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/ESACCO.webp");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   </style>
 </head>
 
@@ -32,8 +47,7 @@
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <div class="container">
-            <img class="image" src="img/ESACCO.webp" width="1000" height="300">
+            <div class="bg">   
 </div>
           </div>
           <div class="flex-item flex-column">
