@@ -18,6 +18,23 @@
       opacity: 1 !important;
       font-weight: 700 !important;
      }
+    .container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
   </style>
 </head>
 
@@ -30,7 +47,9 @@
         <!--Start Intro-->
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <img class="image" src="img/ESACCO.webp">
+            <div class="container">
+            <img class="image" src="img/ESACCO.webp" width="1000" height="300">
+</div>
           </div>
           <div class="flex-item flex-column">
             <p class="text text-large">
