@@ -18,20 +18,24 @@
       opacity: 1 !important;
       font-weight: 700 !important;
     }
+    .img1 { background-image: url("img_snow.jpg"); }
     body, html {
-  height: 80%;
+  height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/businessman-protection-money-table-with-tree_34152-1752.jpg?size=626&ext=jpg");
-  height: 100%;
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
+.img1 { background-image: url("https://img.freepik.com/free-photo/businessman-protection-money-table-with-tree_34152-1752.jpg?size=626&ext=jpg"); }
+.img2 { background-image: url("https://image.freepik.com/free-photo/close-up-students-standing-hands-making-fist-bump-gesture_1150-4511.jpg?w=740"); }
 
 .hero-text {
   text-align: center;
@@ -61,7 +65,8 @@
 </head>
 
 <body>
- <div class="hero-image">
+ <div class="bg-image img1"></div>
+  <div class="bg-image img2"></div>
   <div class="hero-text">
     <h1 style="font-size:50px">You Are Welcome</h1>
     <p>To ESACCO</p>
